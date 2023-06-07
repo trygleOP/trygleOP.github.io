@@ -1,9 +1,74 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <tittle>Chessinator-home</tittle>
-    </head>
-    <body>
-        <h1>Hi welcome to chessinator</h1>
-    </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chessinator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="container">
+        <h1>Welcome to Chessinator</h1>
+        <p>Revolutionize your chess game with advanced match reviews and analysis.</p>
+        <a href="#contact" class="cta-btn">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Chessinator</h2>
+        <p>Chessinator is a state-of-the-art webservice that provides comprehensive reviews and analysis for your chess matches. Powered by Stockfish, a powerful chess engine, and Chat GPT, an advanced language model, Chessinator offers unparalleled insights into your gameplay.</p>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <h2>Key Features</h2>
+        <ul>
+          <li>Intelligent Game Evaluation</li>
+          <li>Explanatory Move Insights</li>
+          <li>Personalized Recommendations</li>
+          <li>Seamless Integration</li>
+          <li>Privacy and Security</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Chessinator. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
