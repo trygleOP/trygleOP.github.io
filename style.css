@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
@@ -58,6 +58,7 @@ nav ul li a:hover {
 
 h1, h2 {
   color: #007bff;
+  font-family: 'Poppins', sans-serif;
 }
 
 #features {
@@ -85,6 +86,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 button[type="submit"] {
@@ -94,6 +96,7 @@ button[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
 
 button[type="submit"]:hover {
@@ -107,4 +110,5 @@ footer {
   padding: 10px;
   color: #fff;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
